@@ -24,4 +24,5 @@ public class MainActivity extends AppCompatActivity {
         Intent jugar = new Intent(this, Historia_Orgue.class);
         startActivity(jugar);
     }
+
 }
