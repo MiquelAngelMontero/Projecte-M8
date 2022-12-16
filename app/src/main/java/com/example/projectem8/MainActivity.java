@@ -14,8 +14,14 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    public void btnHistoria (View view){
-        Intent atras = new Intent(this, Historia_Orgue.class);
-        startActivity(atras);
+    public void btnHistoria(View view) {
+        Intent historia = new Intent(this, Historia_Orgue.class);
+        startActivity(historia);
+
+    }
+
+    public void btnJugar(View view) {
+        Intent jugar = new Intent(this, Historia_Orgue.class);
+        startActivity(jugar);
     }
 }
