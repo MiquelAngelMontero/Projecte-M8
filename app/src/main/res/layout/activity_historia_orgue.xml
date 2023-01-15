@@ -1,30 +1,136 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".Historia_Orgue">
+    android:layout_height="match_parent">
 
-    <ScrollView
-        android:layout_width="409dp"
-        android:layout_height="729dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        tools:context=".MainActivity">
 
-        <LinearLayout
-            android:layout_width="match_parent"
+        <TextView
+            android:id="@+id/body_text2"
+            android:layout_width="382dp"
+            android:layout_height="78dp"
+            android:layout_marginTop="15dp"
+            android:padding="20px"
+            android:paddingStart="20px"
+            android:paddingLeft="20px"
+            android:paddingTop="20px"
+            android:paddingEnd="20px"
+            android:paddingRight="20px"
+            android:paddingBottom="20px"
+            android:text="Valls havia tingut sempre un orgue. "
+            android:textAlignment="center"
+            android:textSize="24sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Titol" />
+
+        <TextView
+            android:id="@+id/Titol"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="16dp"
+            android:text="Historia de l'orgue"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+
+        <TextView
+            android:id="@+id/body_text"
+            android:layout_width="381dp"
+            android:layout_height="168dp"
+            android:layout_marginTop="16dp"
+            android:padding="20px"
+            android:paddingStart="20px"
+            android:paddingLeft="20px"
+            android:paddingTop="20px"
+            android:paddingEnd="20px"
+            android:paddingRight="20px"
+            android:paddingBottom="20px"
+            android:text="Abans de construir-se l’actual església de st Joan n’hi havia una de més petita, la de st Miquel. Se sap que aquesta ja tenia un orgue petit."
+            android:textAlignment="center"
+            android:textSize="24sp"
+            app:layout_constraintHorizontal_bias="0.516"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/body_text2" />
+
+        <TextView
+            android:id="@+id/body_text3"
+            android:layout_width="382dp"
+            android:layout_height="141dp"
+            android:layout_marginTop="16dp"
+            android:padding="20px"
+            android:paddingStart="20px"
+            android:paddingLeft="20px"
+            android:paddingTop="20px"
+            android:paddingEnd="20px"
+            android:paddingRight="20px"
+            android:paddingBottom="20px"
+            android:text="Quan es va construir l’església de st Joan va necessitar un orgue més gran que s’adeqüés a les noves mesures de la nau."
+            android:textAlignment="center"
+            android:textSize="24sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/body_text" />
+
+        <TextView
+            android:id="@+id/body_text4"
+            android:layout_width="379dp"
+            android:layout_height="72dp"
+            android:layout_marginTop="16dp"
+            android:padding="20px"
+            android:paddingStart="20px"
+            android:paddingLeft="20px"
+            android:paddingTop="20px"
+            android:paddingEnd="20px"
+            android:paddingRight="20px"
+            android:paddingBottom="20px"
+            android:text="La construcció del nou orgue es va fer entre els anys 1587 i 1590. "
+            android:textAlignment="center"
+            android:textSize="24sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/body_text3" />
+
+        <TextView
+            android:id="@+id/body_text5"
+            android:layout_width="383dp"
+            android:layout_height="167dp"
+            android:layout_marginTop="16dp"
+            android:padding="20px"
+            android:paddingStart="20px"
+            android:paddingLeft="20px"
+            android:paddingTop="20px"
+            android:paddingEnd="20px"
+            android:paddingRight="20px"
+            android:paddingBottom="20px"
+            android:text="L’any 1936 va ser destruït i van fondre el metall dels tubs per fer munició per a la guerra civil espanyola. L’últim dia que es va fer sonar va ser el 21 de juliol. "
+            android:textAlignment="center"
+            android:textSize="24sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/body_text4" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:scaleType="centerCrop"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/foto_orgue_resized2" />
 
-
-            <TextView
-                android:id="@+id/textView"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="TextView" />
-        </LinearLayout>
-    </ScrollView>
-</androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
