@@ -34,7 +34,7 @@
         android:id="@+id/titol"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="128dp"
+        android:layout_marginTop="100dp"
         android:text="JOC DE L'ORGUE DE VALLS"
         android:textAlignment="center"
         android:textColor="#000000"

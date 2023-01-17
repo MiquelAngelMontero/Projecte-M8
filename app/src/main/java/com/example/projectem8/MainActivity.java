@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void btnJugar(View view) {
-        Intent jugar = new Intent(this, Historia_Orgue.class);
+        Intent jugar = new Intent(this, Joc.class);
         startActivity(jugar);
     }
 
