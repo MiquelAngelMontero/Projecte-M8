@@ -1,3 +1,51 @@
 <resources>
     <string name="app_name">Projecte M8</string>
+    <string-array name="array_preguntas">
+        <item>Busqueu aquest carreu i situeu-lo al plànol.
+(cal respondre per avançar)</item>
+        <item>Quants escuts de la ciutat has pogut comptabilitzar al
+llarg de la visita?
+- entre 10 i 20
+- entre 21 i 40
+- més de 40</item>
+        <item>Segons la imatge, on creieu que estava situat l’orgue
+anterior? Situeu-lo al plànol</item>
+        <item>Ara aneu al lloc, busqueu el codi i obriu la informació.
+Observeu bé la imatge i responeu.
+- està arran de terra
+- està suspès en una balconada</item>
+        <item>Aneu a la ubicació que mostra el plànol i obriu la
+informació del codi QR</item>
+        <item>Quina és la relació entre el disseny de la façana del nou
+orgue i la ciutat de Valls?
+- els calçots i els castells
+- els castells i el campanar
+- el campanar i els gegants</item>
+        <item>Aneu a la ubicació que mostra el plànol i obriu la nova
+informació.</item>
+        <item>Llegiu i relacioneu cada tipus d’orgue amb la definició que
+creieu que li correspon.
+1- orgue portatiu a- té només un teclat però ja té
+dimensions considerables
+2- orgue positiu b- es porta a sobre mentre e toca
+3- orgue principal c- es pot posar a diferents llocs
+4- gran orgue d- té milers de tubs i necessita un
+espai gran per a posar-lo</item>
+        <item>Ja sabeu força coses sobre aquest instrument. Aneu a la
+nova ubicació per continuar amb l’activitat.</item>
+        <item>Mireu bé la façana de l’orgue i trieu de totes aquestes
+parts les que són visibles.
+barnilles, caixa de l’expressiu, manuals, manxes, pedal de
+l’expressiu, pedaler, poms dels registres, secret, tubs.</item>
+        <item>Ja esteu acabant.
+Aneu a obrir el codi que us donarà completarà la
+informació sobre aquest instrument.</item>
+        <item>Quina és la diferència entre orguener i organista?
+1- No hi ha cap diferència, és el mateix.
+2- L’orguener construeix i l’organista toca.
+3- L’organista construeix i l’orguener toca.
+4- L’orguener toca molt i l’organista no toca gaire.</item>
+        <item>Heu recordat de comptar els escuts de la ciutat?
+Ara podeu donar la resposta.</item>
+    </string-array>
 </resources>
