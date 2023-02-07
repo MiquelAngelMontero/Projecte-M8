@@ -48,4 +48,22 @@ informació sobre aquest instrument.</item>
         <item>Heu recordat de comptar els escuts de la ciutat?
 Ara podeu donar la resposta.</item>
     </string-array>
+
+
+    <string-array name="correctes">
+        <item>E</item>
+        <item>Més de 50</item>
+        <item>D</item>
+        <item>Suspès en una balconada</item>
+        <item>B</item>
+        <item>Els castells i el campanar</item>
+        <item>F</item>
+        <item>1B, 2C, 3A, 4D</item>
+        <item>A</item>
+        <item>poms dels registres, tubs, manuals (teclats), pedaler,
+pedal expressiu</item>
+        <item>C</item>
+        <item>L’orguener construeix i l’organista toca</item>
+        <item>Més de 50</item>
+    </string-array>
 </resources>

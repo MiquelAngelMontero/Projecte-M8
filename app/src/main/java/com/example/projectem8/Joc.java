@@ -23,9 +23,9 @@ public class Joc extends AppCompatActivity {
 
         pregunta = findViewById(R.id.pregunta);
         resposta[0] = findViewById(R.id.respuesta1);
-        resposta[1] = (Button)findViewById(R.id.respuesta2);
-        resposta[2] = (Button)findViewById(R.id.respuesta3);
-        resposta[3] = (Button)findViewById(R.id.respuesta4);
+        resposta[1] = findViewById(R.id.respuesta2);
+        resposta[2] = findViewById(R.id.respuesta3);
+        resposta[3] = findViewById(R.id.respuesta4);
 
         pregunta.setText(preguntes[0]);
 
