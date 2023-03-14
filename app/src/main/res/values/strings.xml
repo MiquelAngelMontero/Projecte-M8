@@ -69,81 +69,81 @@ pedal expressiu</item>
 
 
 
-    <string-array name="respostes1">
+    <string-array name="respostes1" id="1">
         <item>A</item>
         <item>C</item>
         <item>E</item>
         <item>B</item>
     </string-array>
 
-    <string-array name="respostes2">
+    <string-array name="respostes2" id="2">
         <item>Entre 10 i 20</item>
         <item>Entre 21 i 40</item>
         <item>Entre 41 i 50</item>
         <item>Més de 50</item>
     </string-array>
-    <string-array name="respostes3">
+    <string-array name="respostes3" id="3">
         <item>D</item>
         <item>C</item>
         <item>A</item>
         <item>B</item>
     </string-array>
-    <string-array name="respostes4">
+    <string-array name="respostes4" id="4">
         <item>Està suspès en una balconada</item>
         <item>Està arran de terra</item>
         <item>Està en una paret</item>
         <item>Està dins de la esglesia</item>
     </string-array>
-    <string-array name="respostes5">
+    <string-array name="respostes5" id="5">
         <item>A</item>
         <item>C</item>
         <item>E</item>
         <item>B</item>
     </string-array>
-    <string-array name="respostes6">
+    <string-array name="respostes6" id="6">
         <item>Els calçots i els castells</item>
         <item>Els castells i el campanar</item>
         <item>El campanar i els gegants</item>
         <item>Els calçots i el campanar</item>
     </string-array>
-    <string-array name="respostes7">
+    <string-array name="respostes7" id="7">
         <item>F</item>
         <item>C</item>
         <item>E</item>
         <item>B</item>
     </string-array>
-    <string-array name="respostes8">
+    <string-array name="respostes8" id="8">
         <item>1A, 2B, 3C, 4D</item>
         <item>1B, 2C, 3A, 4D</item>
         <item>1C, 2B, 3D, 4A</item>
         <item>1D, 2C, 3A, 4B</item>
     </string-array>
-    <string-array name="respostes9">
+    <string-array name="respostes9" id="9">
         <item>A</item>
         <item>C</item>
         <item>E</item>
         <item>B</item>
     </string-array>
-    <string-array name="respostes10">
+    <string-array name="respostes10" id="10">
         <item>barnilles, manuals, secret, tubs</item>
         <item>manxes, tubs, poms de registres</item>
         <item>poms dels registres, tubs, manuals (teclats), pedaler,
 pedal expressiu</item>
         <item>pedaler, poms dels registres, manuals, manxes</item>
     </string-array>
-    <string-array name="respostes11">
+    <string-array name="respostes11" id="11">
         <item>A</item>
         <item>C</item>
         <item>E</item>
         <item>B</item>
     </string-array>
-    <string-array name="respostes12">
+    <string-array name="respostes12" id="12">
         <item>No hi ha cap diferència, és el mateix</item>
         <item>L’orguenista construeix i l’orguener toca</item>
         <item>L’orguener toca molt i lorganista no toca gaire</item>
         <item>L’orguener construeix i l’organista toca</item>
     </string-array>
-    <string-array name="respostes13">
+    <string-array name="respostes13" id="13">
         <item>Entre 10 i 20</item>
         <item>Entre 21 i 40</item>
         <item>Entre 41 i 50</item>

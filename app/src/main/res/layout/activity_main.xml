@@ -4,43 +4,51 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="@drawable/orgue1">
 
     <Button
         android:id="@+id/btnHistoria"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="56dp"
+        android:backgroundTint="#4CAF50"
+        android:fontFamily="@font/autour_one"
         android:onClick="btnHistoria"
         android:text="Historia"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.25"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.75" />
 
     <Button
         android:id="@+id/btnJoc"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="59dp"
+        android:backgroundTint="#FF5722"
+        android:fontFamily="@font/autour_one"
         android:onClick="btnJugar"
-        android:text="Jugar"
+        android:text="Jugar!"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.75"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <TextView
-        android:id="@+id/titol"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="128dp"
-        android:text="JOC DE L'ORGUE DE VALLS"
-        android:textAlignment="center"
-        android:textColor="#000000"
-        android:textSize="24sp"
-        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/titol"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:background="#83000000"
+        android:text="JOC DE L'ORGUE DE VALLS"
+        android:textAlignment="center"
+        android:textColor="#FFEB3B"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.25" />
 </androidx.constraintlayout.widget.ConstraintLayout>
