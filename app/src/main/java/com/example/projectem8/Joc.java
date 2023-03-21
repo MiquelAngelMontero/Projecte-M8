@@ -40,7 +40,7 @@ public class Joc extends AppCompatActivity implements View.OnClickListener{
         ansD.setOnClickListener(this);
         submitBtn.setOnClickListener(this);
 
-        totalQuestionsTextView.setText("Total questions : "+totalQuestion);
+        totalQuestionsTextView.setText("Preguntes totals : "+totalQuestion);
 
         loadNewQuestion();
 
