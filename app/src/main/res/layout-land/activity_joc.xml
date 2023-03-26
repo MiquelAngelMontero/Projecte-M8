@@ -16,13 +16,22 @@
         android:layout_centerHorizontal="true"
         android:textSize="20dp"/>
 
-
+    <ImageView
+        android:id="@+id/imatgeP"
+        android:layout_width="258dp"
+        android:layout_height="285dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toTopOf="@+id/question"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/total_question"
+        app:srcCompat="@drawable/foto_orgue_resized2" />
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/question"
         android:textStyle="bold"
-        android:text="This will be the question"
+        android:text="Aquesta serà la pregunta"
         android:textColor="@color/white"
         android:textSize="24dp"
         android:textAlignment="center"
@@ -78,7 +87,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/submit_btn"
-        android:text="Submit"
+        android:text="Envia"
         android:layout_below="@id/choices_layout"
         android:layout_marginTop="40dp"/>
 

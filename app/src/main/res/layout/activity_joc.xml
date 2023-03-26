@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -9,79 +9,100 @@
     tools:context=".Joc">
 
     <TextView
+        android:id="@+id/total_question"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/total_question"
-        android:text="Total Questions "
         android:layout_centerHorizontal="true"
-        android:textSize="20dp"/>
+        android:text="Total Questions "
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
+
+    <ImageView
+        android:id="@+id/imatgeP"
+        android:layout_width="396dp"
+        android:layout_height="148dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toTopOf="@+id/question"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/total_question"
+        app:srcCompat="@drawable/orgue_basic" />
 
     <TextView
+        android:id="@+id/question"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/question"
-        android:textStyle="bold"
-        android:text="This will be the question"
-        android:textColor="@color/white"
-        android:textSize="24dp"
+        android:layout_above="@id/choices_layout"
+        android:text="Aquesta serà la pregunta"
         android:textAlignment="center"
-        android:layout_margin="20dp"
-        android:layout_above="@id/choices_layout"/>
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/choices_layout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
 
     <LinearLayout
+        android:id="@+id/choices_layout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/choices_layout"
         android:layout_centerInParent="true"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/submit_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
 
         <Button
+            android:id="@+id/ans_A"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/ans_A"
             android:layout_margin="5dp"
             android:backgroundTint="@color/white"
             android:text="Ans A"
-            android:textColor="@color/black"/>
+            android:textColor="@color/black" />
 
         <Button
+            android:id="@+id/ans_B"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/ans_B"
             android:layout_margin="5dp"
             android:backgroundTint="@color/white"
             android:text="Ans B"
-            android:textColor="@color/black"/>
+            android:textColor="@color/black" />
 
         <Button
+            android:id="@+id/ans_C"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/ans_C"
             android:layout_margin="5dp"
             android:backgroundTint="@color/white"
             android:text="Ans C"
-            android:textColor="@color/black"/>
+            android:textColor="@color/black" />
+
         <Button
+            android:id="@+id/ans_D"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/ans_D"
             android:layout_margin="5dp"
             android:backgroundTint="@color/white"
             android:text="Ans D"
-            android:textColor="@color/black"/>
+            android:textColor="@color/black" />
 
     </LinearLayout>
 
     <Button
+        android:id="@+id/submit_btn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/submit_btn"
-        android:text="Submit"
         android:layout_below="@id/choices_layout"
-        android:layout_marginTop="40dp"/>
+        android:text="Envia"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
 
-
-</RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

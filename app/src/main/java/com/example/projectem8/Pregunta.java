@@ -5,11 +5,13 @@ public class Pregunta {
     private String pregunta;
     private String correcta;
     private String[] respostes = new String[4];
+    private String imatge;
 
-    public Pregunta(String pregunta, String correcta, String[] respostes) {
+    public Pregunta(String pregunta, String correcta, String[] respostes, String imatge) {
         this.pregunta = pregunta;
         this.correcta = correcta;
         this.respostes = respostes;
+        this.imatge = imatge;
     }
 
     public String getPregunta() {
@@ -35,4 +37,8 @@ public class Pregunta {
     public void setRespostes(String[] respostes) {
         this.respostes = respostes;
     }
+
+    public String getImatge() { return imatge; }
+
+    public void setImatge(String imatge) { this.imatge = imatge; }
 }
