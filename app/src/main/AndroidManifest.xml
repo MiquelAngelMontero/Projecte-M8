@@ -13,6 +13,9 @@
         android:theme="@style/Theme.ProjecteM8"
         tools:targetApi="31">
         <activity
+            android:name=".Reproductor"
+            android:exported="false" />
+        <activity
             android:name=".Historia_Orgue"
             android:exported="false"
             android:parentActivityName=".MainActivity">
@@ -41,6 +44,7 @@
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
+
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />

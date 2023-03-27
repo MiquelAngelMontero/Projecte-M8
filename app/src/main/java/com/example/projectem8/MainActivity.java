@@ -25,4 +25,8 @@ public class MainActivity extends AppCompatActivity {
         startActivity(jugar);
     }
 
+    public void btnReproduir(View view) {
+        Intent reproduir = new Intent(this, Reproductor.class);
+        startActivity(reproduir);
+    }
 }
